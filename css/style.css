@@ -1,0 +1,52 @@
+* {
+    /* Prevent selection in iOS */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Disable selection/copy in UIWebView */
+}
+.pick {
+    background: url('../image/pick.png');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+}
+.grayPick {
+    background: url('../image/gray_pick.png');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+}
+.pickLabel {
+    color: white;
+    text-shadow: 0 1px 0 #C0C0C0;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.refreshIcon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    right: 0px;
+}
+.emailIcon {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    bottom: 0px;
+    left: 5px;
+}
+.joel {
+    position: absolute;
+    font-family: arial;
+    font-size: 0.75em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -125px;
+    width: 250px;
+}

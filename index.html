@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Random Chords</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta names="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="lib/jquery.mobile-1.3.2.min.css">
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+
+  <div data-role="page" id="p1"> 
+    
+    <div  data-role="content">
+        <select id="key">
+            <option value="C" selected>C Major</option>
+            <option value="Db">Db Major</option>
+            <option value="D">D Major</option>
+            <option value="Eb">Eb Major</option>
+            <option value="E">E Major</option>
+            <option value="F">F Major</option>
+            <option value="Fs">F# Major</option>
+            <option value="G">G Major</option>
+            <option value="Ab">Ab Major</option>
+            <option value="A">A Major</option>
+            <option value="Bb">Bb Major</option>
+            <option value="B">B Major</option>
+            <option value="Cm">C Minor</option>
+            <option value="Csm">C# Minor</option>
+            <option value="Dm">D Minor</option>
+            <option value="Ebm">Eb Minor</option>
+            <option value="Em">E Minor</option>
+            <option value="Fm">F Minor</option>
+            <option value="Fsm">F# Minor</option>
+            <option value="Gm">G Minor</option>
+            <option value="Gsm">G# Minor</option>
+            <option value="Am">A Minor</option>
+            <option value="Bbm">Bb Minor</option>
+            <option value="Bm">B Minor</option>
+        </select>
+        
+        <div style="position: absolute; left: 0; right: 0; bottom: 40px;">
+          
+            <audio id="chordsprite" src="sounds/C.mp3"></audio>
+
+          
+            <div class="ui-grid-b">
+                <div id="pick1back" class="ui-block-a pick">
+                    <p id="pick1" class="pickLabel">A</p>
+                </div>
+                <div id="pick2back" class="ui-block-b pick">
+                    <p id="pick2" class="pickLabel">B</p>
+                </div>
+                <div id="pick3back" class="ui-block-c pick">
+                    <p id="pick3" class="pickLabel">C</p>
+                </div>
+            </div>
+            
+            <div class="ui-grid-a" style="margin-left: 17%; margin-right: 17%;">
+                <div id="pick4back" class="ui-block-a grayPick">
+                    <p id="pick4" class="pickLabel">D</p>
+                </div>
+                <div id="pick5back" class="ui-block-b grayPick">
+                    <p id="pick5" class="pickLabel">E</p>
+                </div>
+            </div>
+                
+        </div>
+        
+        <div class="joel">Created by Joel Dare</div>
+        
+    </div>
+    
+    <img class="refreshIcon" src="image/refresh-icon.png">
+    <a href="mailto:joel@joeldare.com"><img class="emailIcon" src="image/email-icon.png"></a>
+        
+</div> 
+
+<script type="text/javascript" src="lib/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="lib/jquery.mobile.min.js"></script>
+<script type='text/javascript' src='lib/fastclick.js'></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

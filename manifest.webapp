@@ -1,0 +1,17 @@
+{
+  "name": "Random Chords",
+  "description": "Generates a random set of chords in the selected key so that you can play the chords on your guitar. Get new ideas for your songwriting. Provides and endless supply of chord ideas to play with.",
+  "launch_path": "/index.html",
+  "icons": {
+    "256": "/platform/firefox/icon_256x256.png",
+    "128": "/platform/firefox/icon_128x128.png",
+    "120": "/platform/firefox/icon_120x120.png",
+    "90": "/platform/firefox/icon_90x90.png",
+    "60": "/platform/firefox/icon_60x60.png"
+  },
+  "developer": {
+    "name": "Joel Dare",
+    "url": "http://www.joeldare.com"
+  },
+  "default_locale": "en"
+}

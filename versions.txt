@@ -1,0 +1,31 @@
+Next
+
+- Add a play button that plays all 5 chords, maybe in a strumming pattern.
+- When clicking a chord it should play that chord
+- Add metranome to play with
+- Add note box for notes like "G C G G"
+- Add keyboard shortcuts
+- Set zoom for higher resolutions
+
+1.2.1
+
+- Updated Cordova version via PhoneGap Build
+
+1.2.0
+
+- Removed the header to provide more space
+- Added online pill script (http://www.joeldare.com/pill/random_chords.js)
+- Added "Created by Joel" logo
+
+1.1.0
+
+- Now plays chord sounds on click
+
+1.0.1
+
+- Added Windows Phone support
+- Fixed squished images on some devices
+
+1.0.0
+
+- Initial Release
